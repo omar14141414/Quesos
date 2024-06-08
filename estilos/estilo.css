@@ -1,0 +1,162 @@
+
+body {
+    background-color: #fff7e6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto; 
+    max-width: 1200px;
+    padding: 20px; 
+}
+
+header {
+    background-color: #f0e5d6;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #dcd0c0;
+}
+
+
+nav ul li a.activo {
+    background-color: #dcd0c0; 
+}
+
+.textodescriptivo p {
+    padding: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.textodescriptivo1 {
+    flex: 1; 
+    font-size: large; 
+    margin-right: 20px; 
+}
+
+.imagenqueso {
+    flex: 1; 
+    text-align: center; 
+}
+
+.textodescriptivo1 ul li a {
+    text-decoration: none;
+    color: rgb(240, 187, 54);
+}
+
+.animalfoto{
+    height: 300px;
+}
+
+#briefoto{
+    height: 230px;
+}
+
+.botonvolver{
+    margin-top: 30px;
+    position: absolute;
+    left: 47%;
+}
+
+.botonvolver a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(240, 187, 54);
+    font-weight: bold;
+    display: block;
+    font-size: 21px;
+}
+
+.botonvolver a:hover{
+    background-color: #dcd0c0;
+}
+
+#parmigianofoto{
+    height: 215px;
+}
+
+#goudafoto{
+    height: 260px;
+}
+
+#cheddarfoto{
+    height: 270px;
+}
+
+#emmentalfoto{
+    height: 250px;
+}
+
+#roquefoto{
+    height: 200px;
+}
+
+#idiazabalfoto{
+    height: 235px;
+}
+
+#pecorinofoto{
+    height: 230px;
+}
+
+#fiorefoto{
+    height: 220px;
+}
+
+#tronchonfoto{
+    height: 200px;
+}
+
+#cabralesfoto{
+    height: 220px;
+}
+
+#bucheronfoto{
+    height: 235px;
+}
+
+#chevrefoto{
+    height: 230px;
+}
+
+#garrotxafoto{
+    height: 230px;
+}
+
+#fetafoto{
+    height: 220px;
+}
